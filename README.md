@@ -18,5 +18,5 @@ Give examples
 ### Installing
 Installing with conda
 source ~/.bash_profile && conda create -n python_map jupyter notebook && conda activate python_map
- && pip3 install folium && jupyter notebook
+ && conda install -c conda-forge folium && jupyter notebook
 
